@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oculus Fontis | 土地與不動產專業門戶</title>
+    <style>
+        /* 極簡高冷藍黑美學設計 */
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-primary: #f0f6fc;
+            --text-secondary: #8b949e;
+            --accent-blue: #58a6ff;
+            --border-color: #30363d;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* 禁用選取，防範文字被輕易複製 */
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 90%;
+            margin: 40px auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        /* 形象照安全防護區 */
+        .avatar-container {
+            position: relative;
+            width: 180px;
+            height: 240px;
+            margin: 0 auto 24px;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 2px solid var(--accent-blue);
+            box-shadow: 0 4px 12px rgba(88, 166, 255, 0.2);
+            /* 第二道防線：完全禁用圖片上的任何滑鼠與長按事件 */
+            pointer-events: none;
+        }
+
+        .avatar-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* 防止拖拉圖片 */
+            -webkit-user-drag: none;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: var(--text-primary);
+            margin: 10px 0;
+            letter-spacing: 2px;
+        }
+
+        .title-badge {
+            display: inline-block;
+            background-color: rgba(88, 166, 255, 0.15);
+            color: var(--accent-blue);
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+            border: 1px solid rgba(88, 166, 255, 0.3);
+        }
+
+        .content {
+            text-align: left;
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .content p {
+            margin-bottom: 16px;
+        }
+
+        /* 落地專業服務項目 */
+        .services {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 30px 0;
+            text-align: left;
+        }
+
+        .service-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .service-card h3 {
+            margin-top: 0;
+            color: var(--accent-blue);
+        }
+
+        /* 門戶啟動按鈕 */
+        .btn {
+            display: inline-block;
+            background: var(--accent-blue);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 32px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.2s ease;
+            margin-top: 20px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn:hover {
+            background: #478cdb;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body oncontextmenu="return false;" onselectstart="return false;" ondragstart="return false;">
+<!-- 
+  第一道防線：
+  body 標籤內建：
+  - oncontextmenu="return false;" (禁用滑鼠右鍵選單)
+  - onselectstart="return false;" (禁用拖曳反白選取文字)
+  - ondragstart="return false;" (禁用滑鼠拖拉圖片)
+-->
+
+<div class="container">
+    <!-- 預留好的頭像區，對齊 avatar.jpg -->
+    <div class="avatar-container">
+        <img src="avatar.jpg" alt="Oculus Fontis 專業顧問">
+    </div>
+
+    <h1>Oculus Fontis</h1>
+    <div class="title-badge">地政士 / 不動產經紀 雙證照專業門戶</div>
+
+    <div class="content">
+        <p>以精準的 3D 實務邏輯，為您掃除所有繁瑣的不動產與產權障礙。我們直面核心、精準拆解技術與戰略，提供最高效的地政自動化與資產保護方案。</p>
+    </div>
+
+    <div class="services">
+        <div class="service-card">
+            <h3>產權與謄本結構化分析</h3>
+            <p>透過 AI 數據輔助，秒級解析土地建物產權限制與潛在法律風險，保障您的資產安全。</p>
+        </div>
+        <div class="service-card">
+            <h3>不動產法拍與包租代管</h3>
+            <p>精準計算淨投報率與回本週期，以 24/7 自動化閉環，為您立下最穩健的豐盛基石。</p>
+        </div>
+    </div>
+
+    <!-- 未來可直接對齊 Gumroad 彈出購買或預約顧問 -->
+    <button class="btn" onclick="alert('1.0 軌道測試成功！專業顧問門戶已成功通電導通！')">聯絡專業顧問</button>
+
+    <footer>
+        &copy; 2026 Oculus Fontis. All Rights Reserved. 3D/4D 落地實務防禦系統
+    </footer>
+</div>
+
+<script>
+    // 額外的防盜防爬蟲機制：防止鍵盤 F12 與 Ctrl+Shift+I 檢查代碼
+    document.onkeydown = function(e) {
+        if (e.keyCode == 123) { return false; } // 禁用 F12
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { return false; }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; } // 禁用檢視網頁原始碼
+    };
+</script>
+</body>
+</html>
