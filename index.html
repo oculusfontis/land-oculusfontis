@@ -1,202 +1,33 @@
-<!DOCTYPE html>
-<html lang="zh-TW">
+<!doctype html>
+<html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oculus Fontis | 土地與不動產專業門戶</title>
-    <style>
-        /* 極簡高冷藍黑美學設計 */
-        :root {
-            --bg-color: #0d1117;
-            --card-bg: #161b22;
-            --text-primary: #f0f6fc;
-            --text-secondary: #8b949e;
-            --accent-blue: #58a6ff;
-            --border-color: #30363d;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            /* 禁用選取，防範文字被輕易複製 */
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        .container {
-            max-width: 800px;
-            width: 90%;
-            margin: 40px auto;
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            text-align: center;
-        }
-
-        /* 形象照安全防護區 */
-        .avatar-container {
-            position: relative;
-            width: 180px;
-            height: 240px;
-            margin: 0 auto 24px;
-            border-radius: 8px;
-            overflow: hidden;
-            border: 2px solid var(--accent-blue);
-            box-shadow: 0 4px 12px rgba(88, 166, 255, 0.2);
-            /* 第二道防線：完全禁用圖片上的任何滑鼠與長按事件 */
-            pointer-events: none;
-        }
-
-        .avatar-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            /* 防止拖拉圖片 */
-            -webkit-user-drag: none;
-        }
-
-        h1 {
-            font-size: 2rem;
-            color: var(--text-primary);
-            margin: 10px 0;
-            letter-spacing: 2px;
-        }
-
-        .title-badge {
-            display: inline-block;
-            background-color: rgba(88, 166, 255, 0.15);
-            color: var(--accent-blue);
-            padding: 4px 16px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-bottom: 24px;
-            border: 1px solid rgba(88, 166, 255, 0.3);
-        }
-
-        .content {
-            text-align: left;
-            color: var(--text-secondary);
-            font-size: 1.05rem;
-            max-width: 600px;
-            margin: 0 auto 30px;
-        }
-
-        .content p {
-            margin-bottom: 16px;
-        }
-
-        /* 落地專業服務項目 */
-        .services {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 16px;
-            margin: 30px 0;
-            text-align: left;
-        }
-
-        .service-card {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid var(--border-color);
-            padding: 20px;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-
-        .service-card h3 {
-            margin-top: 0;
-            color: var(--accent-blue);
-        }
-
-        /* 門戶啟動按鈕 */
-        .btn {
-            display: inline-block;
-            background: var(--accent-blue);
-            color: #ffffff;
-            text-decoration: none;
-            padding: 12px 32px;
-            border-radius: 6px;
-            font-weight: bold;
-            font-size: 1.1rem;
-            transition: background 0.2s ease;
-            margin-top: 20px;
-            cursor: pointer;
-            border: none;
-        }
-
-        .btn:hover {
-            background: #478cdb;
-        }
-
-        footer {
-            margin-top: 40px;
-            font-size: 0.8rem;
-            color: var(--text-secondary);
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noimageindex,noarchive,nosnippet">
+  <meta name="googlebot" content="noindex,nofollow,noimageindex,noarchive,nosnippet">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>彭代書｜雙北地政與不動產服務</title>
+  <style>
+    :root{--ink:#152823;--forest:#20473b;--blue:#9ed5eb;--sky:#e8f5f9;--paper:#fbfaf6;--warm:#f0ede4;--gold:#ad8b58;--red:#a33e36;--muted:#61706a;--line:#d7ddd7}*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-touch-callout:none}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",Arial,sans-serif;line-height:1.7;-webkit-user-select:none;user-select:none}a{text-decoration:none;color:inherit}img{-webkit-user-drag:none;user-drag:none;pointer-events:none}.wrap{width:min(1180px,calc(100% - 48px));margin:auto}.notice{padding:8px;background:#dbe9df;text-align:center;font-size:11px;font-weight:800;letter-spacing:.09em;color:var(--forest)}.nav{height:76px;display:flex;align-items:center;gap:28px;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:9px;line-height:1}.brand strong{font:900 28px Georgia,serif;letter-spacing:-.12em;color:var(--forest)}.brand span{font-size:10px;font-weight:900;letter-spacing:.17em}.brand small{display:block;margin-top:4px;color:var(--muted);font-size:8px;letter-spacing:.12em}.nav-links{display:flex;gap:24px;margin-left:auto;font-size:12px;font-weight:800}.nav-links a:hover{color:var(--red)}.nav-cta,.button{display:inline-block;padding:11px 17px;background:var(--forest);border:1px solid var(--forest);color:#fff;font-size:12px;font-weight:900}.hero{padding:78px 0;background:linear-gradient(115deg,#fbfaf6 43%,#e7f3f6 43%)}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:64px}.eyebrow{margin:0 0 13px;color:var(--red);font-size:10px;font-weight:900;letter-spacing:.19em}.hero h1,.section-title h2,.about-copy h2,.contact h2{font-family:Georgia,"Noto Serif TC",serif;font-weight:500;letter-spacing:-.06em;line-height:1.12}.hero h1{margin:0;font-size:clamp(48px,5.6vw,78px)}.hero h1 em{font-style:normal;color:var(--forest)}.hero-lead{max-width:595px;margin:25px 0;color:var(--muted);font-size:17px}.actions{display:flex;align-items:center;gap:25px}.quiet{font-size:13px;font-weight:900;color:var(--forest)}.quiet b{margin-left:7px;font-size:18px}.certs{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:39px;color:#5e746b;font-size:11px;font-weight:800}.dot{width:4px;height:4px;background:var(--red);border-radius:50%}.house-card{position:relative;min-height:430px;box-shadow:19px 22px 0 #c5dce4;overflow:hidden}.house-card img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}.house-card:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 42%,#10241ddd)}.house-tag{position:absolute;z-index:1;left:23px;bottom:22px;color:#fff}.house-tag b,.house-tag span{display:block}.house-tag b{font-size:12px;letter-spacing:.15em}.house-tag span{margin-top:2px;color:#d9ebe4;font-size:9px;font-weight:800;letter-spacing:.17em}.intro{padding:106px 0;background:var(--forest);color:#fff}.intro-grid{display:grid;grid-template-columns:75px 1.2fr .8fr;gap:38px}.number{margin:5px 0;color:#dbeb78;font:800 13px Georgia}.intro h2{margin:0;font:500 clamp(35px,4.2vw,56px)/1.15 Georgia,"Noto Serif TC",serif;letter-spacing:-.05em}.intro-grid>p:last-child{margin:14px 0 0;color:#c2d6cc;font-size:16px}.section{padding:112px 0}.section-title{max-width:760px;margin-bottom:46px}.section-title h2{margin:0 0 13px;font-size:clamp(36px,4vw,56px)}.section-title>p:last-child{margin:0;color:var(--muted)}.services{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink);border-left:1px solid var(--line)}.service{min-height:255px;padding:24px;display:flex;flex-direction:column;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}.service:hover{background:var(--sky)}.service>span{color:var(--red);font:800 12px Georgia}.service h3{margin:auto 0 8px;font:500 28px Georgia,"Noto Serif TC",serif;letter-spacing:-.04em}.service p{min-height:46px;margin:0;color:var(--muted);font-size:13px}.service b{margin-top:18px;color:var(--forest);font-size:10px;letter-spacing:.09em}.about{padding:110px 0;background:var(--warm)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:88px;align-items:center}.about-copy h2{margin:0 0 20px;font-size:clamp(35px,4vw,54px)}.about-copy>p:not(.eyebrow){color:var(--muted);font-size:16px}.portrait{position:relative;min-height:590px;overflow:hidden;background:var(--blue)}.portrait img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:center top}.portrait-card{position:absolute;z-index:1;left:0;bottom:0;right:0;padding:20px 25px;background:#132823d9;color:#fff;backdrop-filter:blur(9px)}.portrait-card b{display:block;font:500 23px Georgia,"Noto Serif TC",serif}.portrait-card span{color:#d4e7df;font-size:11px}.pricing{padding:102px 0}.pricing-note{margin-bottom:25px;padding:20px 23px;background:#e7f0ea;border-left:4px solid var(--red)}.pricing-note b{color:var(--forest)}.pricing-note p{margin:6px 0 0;color:var(--muted);font-size:14px}.price-table{border-top:1px solid var(--ink);border-left:1px solid var(--line)}.price-row{display:grid;grid-template-columns:1.1fr .55fr 1.35fr;gap:20px;padding:17px 20px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}.price-row strong{font:500 18px Georgia,"Noto Serif TC",serif;color:var(--red)}.price-row span{color:var(--muted);font-size:13px}.price-head{background:var(--forest);color:#fff;font-size:12px}.knowledge{padding:105px 0;background:#142722;color:#fff}.knowledge-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:15px}.knowledge article{min-height:235px;padding:25px;border:1px solid #ffffff2e;background:#ffffff0a}.knowledge article>span{color:#dce978;font-size:10px;font-weight:900;letter-spacing:.14em}.knowledge h3{margin:55px 0 8px;font:500 25px/1.3 Georgia,"Noto Serif TC",serif}.knowledge p{margin:0;color:#bcd0c6;font-size:13px}.contact{padding:105px 0;text-align:center;background:var(--paper)}.contact h2{margin:0 0 15px;font-size:clamp(39px,5vw,66px)}.contact>p{max-width:570px;margin:0 auto 28px;color:var(--muted)}.contact-actions{display:flex;justify-content:center;gap:12px}.button.light{background:#fff;color:var(--forest)}.footer{padding:55px 0 20px;background:#0d1c18;color:#d7e7df}.footer-grid{display:grid;grid-template-columns:1.5fr .8fr .8fr;gap:55px}.footer p{max-width:350px;color:#a9bdb4;font-size:13px}.footer b{display:block;margin-bottom:12px}.footer a{display:block;margin:9px 0;color:#c5d7d0;font-size:13px}.bottom{margin-top:45px;padding-top:16px;border-top:1px solid #ffffff20;color:#8da49a;font-size:11px}.guard{position:fixed;z-index:99;inset:auto 12px 12px auto;padding:7px 9px;background:#10251ed9;border:1px solid #ffffff1d;color:#bfd3c9;font-size:9px;letter-spacing:.08em;pointer-events:none}
+    @media(max-width:850px){.nav-links{display:none}.nav-cta{margin-left:auto}.hero-grid,.about-grid{grid-template-columns:1fr}.house-card{max-width:560px;width:100%;margin:auto}.intro-grid{grid-template-columns:55px 1fr}.intro-grid>p:last-child{grid-column:2}.services{grid-template-columns:repeat(2,1fr)}.knowledge-grid{grid-template-columns:1fr 1fr}.knowledge article:first-child{grid-column:1/-1}.footer-grid{grid-template-columns:1.3fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}}@media(max-width:560px){.wrap{width:calc(100% - 30px)}.nav{height:67px}.hero{padding:55px 0}.hero h1{font-size:49px}.hero-lead{font-size:15px}.actions{display:block}.quiet{display:block;margin-top:17px}.house-card{min-height:305px}.intro,.section,.about,.pricing,.knowledge,.contact{padding:70px 0}.intro-grid{grid-template-columns:1fr}.number{display:none}.intro-grid>p:last-child{grid-column:auto}.services,.knowledge-grid{grid-template-columns:1fr}.service{min-height:220px}.knowledge article:first-child{grid-column:auto}.about-grid{gap:45px}.portrait{min-height:480px}.price-head{display:none}.price-row{grid-template-columns:1fr;gap:4px;padding:16px}.price-row b:before{content:"服務項目　";color:var(--muted);font-size:10px}.price-row strong:before{content:"收費　";color:var(--muted);font-size:10px}.price-row span:before{content:"說明　";color:var(--muted);font-size:10px}.contact-actions{flex-direction:column;align-items:center}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}.bottom{margin-top:30px}}
+  </style>
 </head>
-<body oncontextmenu="return false;" onselectstart="return false;" ondragstart="return false;">
-<!-- 
-  第一道防線：
-  body 標籤內建：
-  - oncontextmenu="return false;" (禁用滑鼠右鍵選單)
-  - onselectstart="return false;" (禁用拖曳反白選取文字)
-  - ondragstart="return false;" (禁用滑鼠拖拉圖片)
--->
-
-<div class="container">
-    <!-- 預留好的頭像區，對齊 avatar.jpg -->
-    <div class="avatar-container">
-        <img src="avatar.jpg" alt="Oculus Fontis 專業顧問">
-    </div>
-
-    <h1>Oculus Fontis</h1>
-    <div class="title-badge">地政士 / 不動產經紀 雙證照專業門戶</div>
-
-    <div class="content">
-        <p>以精準的 3D 實務邏輯，為您掃除所有繁瑣的不動產與產權障礙。我們直面核心、精準拆解技術與戰略，提供最高效的地政自動化與資產保護方案。</p>
-    </div>
-
-    <div class="services">
-        <div class="service-card">
-            <h3>產權與謄本結構化分析</h3>
-            <p>透過 AI 數據輔助，秒級解析土地建物產權限制與潛在法律風險，保障您的資產安全。</p>
-        </div>
-        <div class="service-card">
-            <h3>不動產法拍與包租代管</h3>
-            <p>精準計算淨投報率與回本週期，以 24/7 自動化閉環，為您立下最穩健的豐盛基石。</p>
-        </div>
-    </div>
-
-    <!-- 未來可直接對齊 Gumroad 彈出購買或預約顧問 -->
-    <button class="btn" onclick="alert('1.0 軌道測試成功！專業顧問門戶已成功通電導通！')">聯絡專業顧問</button>
-
-    <footer>
-        &copy; 2026 Oculus Fontis. All Rights Reserved. 3D/4D 落地實務防禦系統
-    </footer>
-</div>
-
-<script>
-    // 額外的防盜防爬蟲機制：防止鍵盤 F12 與 Ctrl+Shift+I 檢查代碼
-    document.onkeydown = function(e) {
-        if (e.keyCode == 123) { return false; } // 禁用 F12
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { return false; }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; }
-        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; } // 禁用檢視網頁原始碼
-    };
-</script>
+<body>
+  <div class="notice">O.F. PROPERTY｜雙北地政與不動產服務</div>
+  <nav class="wrap nav"><a class="brand" href="#top"><strong>O.F.</strong><span>PROPERTY<small>OCULUS FONTIS</small></span></a><div class="nav-links"><a href="#services">服務項目</a><a href="#pricing">收費參考</a><a href="#about">關於彭代書</a></div><a class="nav-cta" href="https://line.me/ti/p/~0971762336" target="_blank" rel="noreferrer">LINE 初步諮詢</a></nav>
+  <main id="top">
+    <section class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">TAIPEI · NEW TAIPEI / LAND ADMINISTRATION</p><h1>不動產的重要決定，<br><em>值得一個清楚的開始。</em></h1><p class="hero-lead">以地政專業、31 年科技業與國際商務歷練，結合跨世代實務交流與 AI 數位工具，協助您看懂權利、安排程序、掌握下一步。</p><div class="actions"><a class="button" href="#services">認識服務範疇</a><a class="quiet" href="#about">認識彭代書 <b>→</b></a></div><div class="certs"><span>國家考試合格地政士</span><i class="dot"></i><span>不動產經紀人</span><i class="dot"></i><span>租賃住宅管理人員</span></div></div><div class="house-card"><img src="house.jpg" alt="雙北現代住宅建築" draggable="false"><div class="house-tag"><b>O.F. PROPERTY</b><span>LAND · RIGHTS · CLARITY</span></div></div></div></section>
+    <section class="intro"><div class="wrap intro-grid"><p class="number">01</p><h2>不是把文件交出去，<br>而是先理解你正在做的決定。</h2><p>買賣、繼承、贈與、貸款與產權整理，牽涉的不只是表格。先看清權利關係與關鍵節點，才有安心的下一步。</p></div></section>
+    <section class="section wrap" id="services"><header class="section-title"><p class="eyebrow">SERVICE SCOPE</p><h2>你遇到的問題，<br>不只一種。</h2><p>以雙北地區為核心，提供不動產登記與權利關係相關服務。</p></header><div class="services"><article class="service"><span>01</span><h3>不動產移轉</h3><p>買賣、親屬間移轉與所有權登記，先釐清權利，再安排程序。</p><b>PROPERTY TRANSFER ↗</b></article><article class="service"><span>02</span><h3>繼承與遺產</h3><p>從繼承關係、遺產資料到申報與登記，逐一整理。</p><b>INHERITANCE ↗</b></article><article class="service"><span>03</span><h3>贈與與規劃</h3><p>在決定贈與前，看懂權利安排、稅費與長期影響。</p><b>GIFT REGISTRATION ↗</b></article><article class="service"><span>04</span><h3>抵押權與信託</h3><p>設定、塗銷、信託登記與相關權利事項的程序協助。</p><b>REGISTRATION ↗</b></article><article class="service"><span>05</span><h3>產權調查</h3><p>從登記資料與權利關係出發，建立可判讀的基礎。</p><b>TITLE RESEARCH ↗</b></article><article class="service"><span>06</span><h3>複雜產權問題</h3><p>都更、共有、老屋或跨程序議題，先釐清再決定方向。</p><b>COMPLEX CASES ↗</b></article></div></section>
+    <section class="about" id="about"><div class="wrap about-grid"><div class="about-copy"><p class="eyebrow">ABOUT PENG</p><h2>專業不是把話說得很難，<br>而是把事情說得很清楚。</h2><p>國家考試合格地政士、不動產經紀人、租賃住宅管理人員。以 31 年科技業與國際商務歷練，結合地政專業、跨世代實務交流與 AI 數位工具，打造清楚、有效率的不動產服務體驗。</p><p>面對需要進一步研究的議題，重點不是倉促回答，而是回到法規、權利資料與實際條件，做出可被理解的判斷。</p></div><div class="portrait"><img src="avatar.jpg" alt="彭代書形象照" draggable="false"><div class="portrait-card"><b>彭代書</b><span>雙北地政與不動產服務</span></div></div></div></section>
+    <section class="pricing wrap" id="pricing"><header class="section-title"><p class="eyebrow">PRICING REFERENCE</p><h2>先把計價原則說清楚。</h2><p>常見服務項目的參考收費區間；實際費用依標的、人數、筆數與案件複雜度確認。</p></header><div class="pricing-note"><b>LINE 初步諮詢｜前 20 分鐘免費</b><p>以下為常見服務項目之參考收費區間，實際報價將由承辦地政士依案件複雜度、標的物筆數與人數評估後提供。</p></div><div class="price-table"><div class="price-row price-head"><b>服務項目</b><b>收費標準</b><b>說明</b></div><div class="price-row"><b>買賣／贈與過戶登記</b><strong>14,000 元起</strong><span>1 筆土地、1 棟建物；每增加 1 筆或 1 人另計</span></div><div class="price-row"><b>繼承登記</b><strong>18,000 元起</strong><span>複雜案件、動產、股票另行計費</span></div><div class="price-row"><b>抵押權設定（銀行）</b><strong>5,000 元</strong><span>每增加 1 筆或 1 人加收 1,000 元</span></div><div class="price-row"><b>抵押權塗銷</b><strong>2,500 元</strong><span>併同買賣案件辦理另有優惠</span></div><div class="price-row"><b>信託登記</b><strong>16,000 元起</strong><span>複雜案件另行計費</span></div><div class="price-row"><b>土地增值稅自用優惠申報</b><strong>3,000 元</strong><span>未核准不收費</span></div></div><p style="margin-top:20px;color:var(--muted);font-size:13px">本表不含地政規費、稅捐、國稅、公所規費、銀行帳管費及火災地震險保費等代收代付款項。正式報價以承辦地政士書面確認為準。</p></section>
+    <section class="knowledge"><div class="wrap"><header class="section-title"><p class="eyebrow" style="color:#dce978">PROPERTY NOTES</p><h2>先把知識做好，<br>讓選擇更安心。</h2><p style="color:#bcd0c6">長期累積地政、不動產交易、防詐與租賃管理的實用內容。</p></header><div class="knowledge-grid"><article><span>01 / 繼承</span><h3>不動產繼承第一步：先整理哪些資料？</h3><p>從關係、標的到文件，建立不漏項的起點。</p></article><article><span>02 / 移轉</span><h3>第一次辦理不動產移轉，流程怎麼看？</h3><p>把交易節點、文件與時程化繁為簡。</p></article><article><span>03 / 防詐</span><h3>房地產交易常見詐騙，如何建立安全流程？</h3><p>身份確認、帳戶核對與文件管理不能省略。</p></article></div></div></section>
+    <section class="contact"><div class="wrap"><p class="eyebrow">CONTACT</p><h2>把問題說清楚，<br>才能走到對的下一步。</h2><p>服務地區以台北市、新北市為核心。請勿透過一般訊息或 Email 傳送身分證、印鑑、權狀或金融資料。</p><div class="contact-actions"><a class="button" href="https://line.me/ti/p/~0971762336" target="_blank" rel="noreferrer">LINE ID｜0971762336</a><a class="button light" href="mailto:land@oculusfontis.com?subject=地政士案件諮詢">land@oculusfontis.com</a></div></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-grid"><div><a class="brand" href="#top"><strong>O.F.</strong><span>PROPERTY<small>OCULUS FONTIS</small></span></a><p>用科技整理複雜流程，用專業守住每一個重要決定。</p></div><div><b>服務</b><a href="#services">不動產移轉</a><a href="#services">繼承登記</a><a href="#services">贈與與信託</a></div><div><b>延伸品牌</b><a href="https://www.oculusfontis.com" target="_blank" rel="noreferrer">Oculus Fontis ↗</a><a href="mailto:land@oculusfontis.com">Email 聯絡</a><a href="https://line.me/ti/p/~0971762336" target="_blank" rel="noreferrer">LINE 初步諮詢</a></div></div><div class="wrap bottom">© 2026 Oculus Fontis · O.F. Property</div></footer>
+  <div class="guard">CONTENT & IMAGE PROTECTION ENABLED</div>
+  <script>
+    (()=>{const stop=e=>{e.preventDefault();return false};document.addEventListener('contextmenu',stop);document.addEventListener('dragstart',stop);document.addEventListener('selectstart',stop);document.addEventListener('gesturestart',stop);document.addEventListener('touchstart',e=>{if(e.touches.length>1)stop(e)},{passive:false});document.addEventListener('keydown',e=>{const k=e.key.toLowerCase();if(e.key==='F12'||(e.ctrlKey&&['s','u','p'].includes(k))||(e.ctrlKey&&e.shiftKey&&['i','j','c'].includes(k)))stop(e)});})();
+  </script>
 </body>
 </html>
