@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/videos.py": {
+      "maxDuration": 30,
+      "includeFiles": "api/videos_seed.json"
+    }
+  }
+}
