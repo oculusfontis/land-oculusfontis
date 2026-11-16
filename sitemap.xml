@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://land.oculusfontis.com/</loc></url><url><loc>https://land.oculusfontis.com/tax.html</loc></url><url><loc>https://land.oculusfontis.com/inquiry.html</loc><lastmod>2026-10-24</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://land.oculusfontis.com/</loc></url>
+<url><loc>https://land.oculusfontis.com/tax.html</loc></url>
+<url><loc>https://land.oculusfontis.com/inquiry.html</loc><lastmod>2026-10-24</lastmod></url>
 <url><loc>https://land.oculusfontis.com/privacy.html</loc><lastmod>2026-10-24</lastmod></url>
 <url><loc>https://land.oculusfontis.com/topic-buying.html</loc><lastmod>2026-10-30</lastmod></url>
 <url><loc>https://land.oculusfontis.com/topic-inheritance.html</loc><lastmod>2026-10-30</lastmod></url>
@@ -7,4 +10,8 @@
 <url><loc>https://land.oculusfontis.com/topic-fraud.html</loc><lastmod>2026-10-30</lastmod></url>
 <url><loc>https://land.oculusfontis.com/articles/rental-ep01-eight-contract-terms.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://land.oculusfontis.com/articles/rental-ep01-eight-contract-terms-checklist.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://land.oculusfontis.com/articles/will-ep01-holographic-will.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://land.oculusfontis.com/articles/will-ep01-holographic-will-checklist.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://land.oculusfontis.com/articles/will-ep02-five-will-types.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://land.oculusfontis.com/articles/will-ep02-five-will-types-checklist.html</loc><lastmod>2026-11-17</lastmod></url>
 </urlset>
